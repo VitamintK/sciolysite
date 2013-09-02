@@ -1,0 +1,42 @@
+body{
+			font-family:Arial, Helvetica, sans-serif;
+			font-family: "Open Sans","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,sans-serif;
+			color:rgb(239, 239, 239);
+			text-align:center;
+			font-size:36px;
+			background-color:rgb(51, 51, 51);	
+}
+	
+html, body {
+	margin:0; padding:0;
+	height:100%;
+}
+
+ 
+#floater {
+	position:relative; float:left;
+	height:50%;	margin-bottom:-200px;
+	width:1px;
+}
+ 
+#centered {
+	position:relative; clear:left;
+	height:100px; width:95%; max-width:1900px; min-width:400px;
+	margin:0 auto;
+}
+#content a:link{
+	color:rgb(239, 239, 239);
+	text-decoration:none;}
+#content a:visited {
+	color:rgb(239, 239, 239);
+	text-decoration:none;}
+#content a:hover {
+    color: rgb(37, 113, 184);
+}
+#content a{transition: color 0.3s ease 0s;}
+
+#content {
+	position:absolute; left:0; right:0; top:0; bottom:0;
+	overflow:auto; height:340px;
+	padding:20px; margin:10px;
+}
