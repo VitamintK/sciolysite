@@ -1,6 +1,7 @@
 body{
 			font-family:Arial, Helvetica, sans-serif;
 			font-family: "Open Sans","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,sans-serif;
+   font-weight: 300;
 			color:rgb(239, 239, 239);
 			text-align:center;
 			font-size:36px;
@@ -31,7 +32,7 @@ html, body {
 	color:rgb(239, 239, 239);
 	text-decoration:none;}
 #content a:hover {
-    color: rgb(37, 113, 184);
+    color:  rgb( 37, 113, 184);
 }
 #content a{transition: color 0.3s ease 0s;}
 
