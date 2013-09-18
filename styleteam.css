@@ -4,7 +4,7 @@ body{
    font-weight: 300;
 			color:rgb(239, 239, 239);
 			text-align:center;
-			font-size:36px;
+			font-size:26px;
 			background-color:rgb(51, 51, 51);	
 }
 	
@@ -13,20 +13,17 @@ html, body {
 	height:100%;
 }
 
- 
-#floater {
-	position:relative; float:left;
-	height:10%;	margin-bottom:-400px;
-	width:1px;
-}
- 
+
 #centered {
 	position:relative; clear:left;
-	height:110%; width:95%; max-width:1900px; min-width:400px;
+	height:101%; width:95%; max-width:1900px; min-width:400px;
 	margin:0 auto;
 }
+#content a{
+	opacity:0.5;
+}
 #content a:hover {
-    opacity:.5;
+    opacity:1;
 }
 #content a{transition: opacity 0.4s ease-in-out;}
 
